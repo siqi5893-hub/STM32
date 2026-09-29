@@ -107,3 +107,10 @@ Core/
 STM32 GPIO 不能直接驱动直流电机，PB6~PB9 应连接到电机驱动器/H 桥的逻辑输入端。
 
 `Car_Brake()` 的具体制动效果取决于实际使用的电机驱动芯片，使用前建议确认驱动芯片真值表。
+
+## License
+
+Original code and documentation in this repository are released under the [MIT License](./LICENSE).
+
+STM32Cube/HAL, CMSIS, startup code, generated vendor files, and other third-party components retain their original licenses. See [NOTICE.md](./NOTICE.md) for details.
+
